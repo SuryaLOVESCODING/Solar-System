@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz</title>
+    <link href="quiz_styler.css" rel="stylesheet" type="text/css" />
+    
+    
+</head>
+<body>
+  <h1 id="score" class="Score"></h1>
+  <form id="quiz" name="quiz">
+    <p id="Questions">1.How much percent of mass does the sun take up of the solar system?</p> &nbsp <p id="Check1"></p>
+
+    
+    <input type="radio" name="question1" value="98.8">98.8<br>
+
+    
+    <input type="radio" name="question1" value="78.5" >78.5<br>
+
+    
+    <input type="radio" name="question1" value="99.8">99.8<br>
+
+    
+    <input type="radio" name="question1" value="99.9">99.9<br>
+
+    <p id="Questions">2.Compared to the other planets where would Mercury rank in size?</p> &nbsp <p id="Check2"></p>
+
+    
+    <input type="radio" name="Mercury_Question" value="1">1<br>
+
+    
+    <input type="radio" name="Mercury_Question" value="7" >7<br>
+
+    
+    <input type="radio" name="Mercury_Question" value="10">10<br>
+
+    
+    <input type="radio" name="Mercury_Question" value="11">11<br>
+
+
+    <p id="Questions">3.What is Venus's Climate like?</p> &nbsp <p id="Check3"></p>
+
+    
+    <input type="radio" name="Venus_Question" value="Rainfall">Rainfall<br>
+
+    
+    <input type="radio" name="Venus_Question" value="Wind" >Wind<br>
+
+    
+    <input type="radio" name="Venus_Question" value="Hot">Hot<br>
+
+    
+    <input type="radio" name="Venus_Question" value="Cold">Cold<br>
+
+
+    <p id="Questions">4.What is earth covered with that any other planet isn't?</p> &nbsp<p id="Check4"></p>
+
+    
+    <input type="text" id="earth">
+
+    <p id="Questions">5.Mars is how many planets away from the Sun?</p> &nbsp<p id="Check5"></p>
+
+    <input type="text" id="mars" name="Mars_Question">
+
+    <p id="Questions">6.Rank Jupiter to the other planets in terms of size</p> &nbsp<p id="Check6"></p>
+    <input type="number" id="jupiter" name="Jupiter_Question" min="1" max="11">
+
+    <p id="Questions">7.How many Chemicals mostly make up Saturn?</p> &nbsp<p id="Check7"></p>
+    <input type="number" id="Saturn" name="Saturn_Question" min="1" max="100">
+
+    <p id="Questions">8.Which of these Planets come after Uranus?</p> &nbsp <p id="Check8"></p>
+    <input type="checkbox" id="planet1" name="Uranus_Question" value="Neptune">Neptune<br>
+    <input type="checkbox" id="planet2" name="Uranus_Question" value="Mars">Mars<br>
+    <input type="checkbox" id="planet3" name="Uranus_Question" value="Venus">Venus<br>
+    <input type="checkbox" id="planet4" name="Uranus_Question" value="Sun">Sun<br>
+
+    <p id="Questions">9.Is Neptune very Jolly and Hot</p> &nbsp<p id="Check9"></p>
+    <input type="radio" name="Neptune_Question" value="True">True<br>
+    <input type="radio" name="Neptune_Question" value="False">False<br><br>
+
+
+  </form>
+    
+    <button id="submit" onclick="Submit()">SUBMIT</button>
+    <button id="Reload" onclick="reload()">Reload</button>
+
+    <script src="backend.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+body{
+    background-image:url(space.jpg);
+    background-size:cover;
+  }
+  
+  .earth{
+    position:relative;
+    width:90px;
+    bottom:100px;
+    left:7%;
+  }
+  
+  .mercury{
+    position:relative;
+    width:50px;
+    bottom:100px;
+    left:2%;
+  }
+  
+  .sun{
+    width:250px;
+  }
+  
+  .venus{
+    position:relative;
+    width:80px;
+    bottom:100px;
+    left:5%;
+  }
+  
+  .mars{
+    position:relative;
+    width:100px;
+    bottom:100px;
+    left:9%;
+  }
+  
+  .jupiter{
+    position:relative;
+    width:150px;
+    bottom:100px;
+    left:11%;
+  }
+  
+  .saturn{
+    position:relative;
+    width:200px;
+    bottom:100px;
+    left:13%;
+  }
+  
+  .uranus{
+    position:relative;
+    width:150px;
+    bottom:100px;
+    left:15%;
+  }
+
+  .neptune{
+    position:relative;
+    width:120px;
+    bottom:100px;
+    left:17%;
+  }
+
+  .heading{
+    
+    color:red;
+    text-align:center;
+    
+  }
+
+  .reload{
+    position:relative;
+    outline:none;
+    display:block;
+    font-size:16px;
+    line-height:1;
+    padding:16px 30px;
+    border-radius:30px;
+    background:blue;
+    color:white;
+    cursor:pointer;
+    transition: all 0.3s linear;
+    left:44%;
+
+  }
+
+  .info{
+    position:relative;
+    top:320px;
+    left:0%;
+    color:red;
+    font-size:30px;
+  }
+
+  #quiz{
+    color:yellow;
+    background-color:grey;
+    width:100px;
+    height:50px;
+    display:block;
+    cursor:pointer;
+  }
+  
+
+  
+    
+    
